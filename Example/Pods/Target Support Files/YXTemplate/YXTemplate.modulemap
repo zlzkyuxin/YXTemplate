@@ -1,0 +1,6 @@
+framework module YXTemplate {
+  umbrella header "YXTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

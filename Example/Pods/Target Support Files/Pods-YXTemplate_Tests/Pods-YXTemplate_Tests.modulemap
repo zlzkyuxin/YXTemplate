@@ -1,0 +1,6 @@
+framework module Pods_YXTemplate_Tests {
+  umbrella header "Pods-YXTemplate_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
