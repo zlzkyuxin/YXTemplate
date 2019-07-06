@@ -4,10 +4,10 @@ platform :ios, '8.0'
 
 target 'YXTemplate_Example' do
   pod 'YXTemplate', :path => '../'
-
+#  pod 'YXTemplate'
   target 'YXTemplate_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end

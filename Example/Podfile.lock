@@ -1,20 +1,13 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - MBProgressHUD (1.1.0)
-  - YXTemplate (0.1.0):
+  - YXTemplate (1.0.1):
     - MBProgressHUD (~> 1.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - YXTemplate (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
     - MBProgressHUD
 
 EXTERNAL SOURCES:
@@ -22,10 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  YXTemplate: 4baedb5edf9ae9fa04df0aa2dce8aa79ae2cbc73
+  YXTemplate: 008412857a4eff5ae28f772a828a0c18cefe89b3
 
-PODFILE CHECKSUM: 8bc06fa61f8623c10b9fc6c1b7b48de1b2390f98
+PODFILE CHECKSUM: 5920b5632cd2129636e3871ae5cf9a16a730feb9
 
 COCOAPODS: 1.6.1

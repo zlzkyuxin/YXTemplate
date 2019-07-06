@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YXTemplate'
-  s.version          = '1.0.1'
-  s.summary          = '自定义类库'
+  s.version          = '1.0.2'
+  s.summary          = 'yx自定义类库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 #  TODO: Add long description of the pod here.
-自定义类库 ------------
+yx的自定义类库,用于自定义开发使用！
                        DESC
 
   s.homepage         = 'https://github.com/zlzkyuxin/YXTemplate.git'
@@ -36,10 +36,10 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD', '~> 1.1.0'
   
   #对外发布头文件
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/YXTipsHUD.h'
   #对外发布文件
-  s.source_files = 'YXTemplate/Classes/**/*'
-  
+#  s.source_files = 'YXTemplate/Classes/**/*'
+
   #对外发布资源文件
   # s.resource_bundles = {
   #   'YXTemplate' => ['YXTemplate/Assets/*.png']

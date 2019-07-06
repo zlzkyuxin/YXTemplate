@@ -7,6 +7,7 @@
 //
 
 #import "YXViewController.h"
+#import <YXTemplate/YXTipsHUD.h>
 
 @interface YXViewController ()
 
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [[YXTipsHUD sharedInstance] showTips:@"测试自定义类库"];
 }
 
 @end

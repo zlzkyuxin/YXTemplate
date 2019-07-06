@@ -49,6 +49,8 @@
     }
     
     _customHud = [[MBProgressHUD alloc] initWithView:view];
+    //关闭交互
+    _customHud.userInteractionEnabled = NO;
     //弹出视图模式
     _customHud.mode = MBProgressHUDModeCustomView;
     [_customHud showAnimated:YES];

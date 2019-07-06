@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YXTipsHUD.h"
 
 FOUNDATION_EXPORT double YXTemplateVersionNumber;
 FOUNDATION_EXPORT const unsigned char YXTemplateVersionString[];
